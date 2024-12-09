@@ -1,0 +1,220 @@
+/* General styles */
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Carousel styles */
+.carousel-inner img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+.carousel-item {
+  padding: 20px;
+}
+#subscribe-box {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#subscribe-box .card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+#subscribe-box .card h4 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+#subscribe-box .card p {
+  font-size: 1rem;
+  color: #777;
+}
+
+#subscribe-box .form-control {
+  width: 100%;
+  padding: 10px;
+}
+
+#subscribe-box .btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a
+}
+
+.footer {
+  background-color: #f8f9fa;
+  padding: 20px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.social-icons {
+  margin-bottom: 15px;
+}
+
+.social-icon {
+  margin: 0 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+.social-icon:hover {
+  color: #007bff;
+}
+
+footer p {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Card styling */
+.card {
+  border: 1px solid #ddd;
+  box-shadow: 0 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s ease;
+}
+
+.card:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Card Body styling */
+.card-body {
+  padding: 2rem;
+  text-align: center;
+  margin-left: 5px;
+}
+
+/* Text with background color */
+.p1 {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-size: 16px;
+  color: rgb(156, 19, 19);
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.p1:hover {
+  background-color: red;
+  color: white;
+}
+
+/* Button styling */
+button {
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* button:hover {
+  background-color: #45a049;
+} */
+
+input[type="email"] {
+  padding: 10px;
+  width: 80%;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+input[type="email"]:focus {
+  border-color: #ff7f50;
+  outline: none;
+}
+
+/* Section styling */
+#back {
+  background-color: #f8f8f8;
+  padding: 0px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+#style {
+  margin-top: 20px;
+}
+
+.container-fluid {
+  padding-left: 10px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .carousel-inner img {
+    height: 300px;
+  }
+
+  .container-fluid {
+    padding-left: 0;
+  }
+
+  .col-sm-12, .col-md-3, .col-lg-3, .col-lg-4 {
+    text-align: center;
+  }
+
+  .card-body {
+    padding: 10px;
+  }
+
+  input[type="email"] {
+    width: 100%;
+  }
+
+  button {
+    width: 100%;
+  }
+}
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card h5 {
+  font-size: 1.2rem;
+  color: #333;
+}
+form {
+  max-width: 500px;
+  margin: auto;
+}
+
+.card {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+}
+
+
+/* Card image hover effect */
+.card-img-top:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+/* Overflow hidden for images */
+.ims {
+  overflow: hidden;
+}
